@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url("https://i.postimg.cc/qRwjn4ZH/Deep-Space-1.png");
+    background-size: cover;
+    font-family: 'UEFA Supercup', sans-serif;
+}
+
+.txt-purp {
+    color: rgb(255, 255, 255);
+    font-weight: 800;
+}
+
+.txt-purpl {
+    font-weight: 800;
+}
+
+.navbar-toggler {
+    background-color: rgb(255, 255, 255);
+}
+
+.btn-success {
+    background-color: black;
+}
+
+.hero {
+    background-image: url("https://i.postimg.cc/8zJBfwD4/intmYM.webp");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 92.5vh;
+    box-shadow: black 1rem 1rem 1rem;
+}
+
+.card {
+    list-style: none;
+    position: relative;
+    transition: all 0.5s ease-out;
+    border-radius: 1rem;
+  }
+  .card__bg {
+    position: relative;
+    height: 50vh;
+    min-width: 250px;
+    background-size: cover;
+    background-position: center center;
+    border-radius: 1rem;
+    overflow: hidden;
+    transform: scale(1);
+    transition: all 0.5s ease-out;
+  }
+  .card__bg::after {
+    content: "";
+    background-image: linear-gradient(360deg, black, transparent);
+    height: 150px;
+    bottom: 0;
+    width: 100%;
+    position: absolute;
+  }
+  .card__content {
+    position: absolute;
+    bottom: 1rem;
+    left: 1rem;
+  }
+  .card__category {
+    font-size: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #acacac;
+  }
+  .card:hover {
+    transform: scale(1.02);
+    filter: drop-shadow(0px 0px 100px #acacac);
+  }
+  .card-grid:hover > .card:not(:hover).card {
+    filter: brightness(0.8) grayscale(0.6) contrast(1.2) blur(10px);
+  }
+
+  .hero-section {
+    min-height: 100%;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .card-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 24px;
+    grid-row-gap: 24px;
+    width: 100%;
+  }
+
+  .drop {
+    position: absolute;
+    top: 90%;
+    left: 35%;
+  }
+
+  .footer {
+    height: 4rem;
+  }
+
+  .flex {
+    display: flex;
+  }
+
+  .dr {
+    padding: 3rem;
+    margin-left: 12rem
+  }
+  
+  
+  .dro {
+    margin-left: 12rem
+  }
+
+
+
+  @import url('https://fonts.cdnfonts.com/css/uefa-supercup');
