@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url("https://i.postimg.cc/qRwjn4ZH/Deep-Space-1.png");
+    background-size: cover;
+    font-family: 'UEFA Supercup', sans-serif;
+    color: rgb(255, 255, 255) !important; 
+}
+
+.bgss {
+    background-color: #ff000000;
+}
+
+.wrapper {
+    position: absolute;
+    width: 38rem;
+    height: 34rem;
+    background: linear-gradient(to right, #FF0000, rgb(56, 56, 56));
+    border-radius: 4rem;
+    transform: translate(-50%, 50%);
+    bottom: 45%;
+    left: 48%;
+    box-shadow: black 7rem 2rem 4rem 1rem;
+}
+
+.txt-purp {
+    color: rgb(255, 255, 255);
+    font-weight: 800;
+}
+
+.txt-purpl {
+    font-weight: 800;
+}
+
+.navbar-toggler {
+    background-color: rgb(255, 255, 255);
+}
+
+.btn-success {
+    background-color: black;
+}
+
+.h-01 {
+    text-shadow: rgb(40, 40, 40) 2px 2px 2px;
+}
+
+.input {
+    border-radius: 1rem;
+}
+
+.inputmess {
+    border-radius: 1rem;
+    height: 6rem;
+    text-align: start;
+    font-size: 1rem;
+}
+
+.button {
+    border-radius: 1rem;
+    width: 4rem;
+    height: 2rem;
+}
+
