@@ -194,8 +194,6 @@ body {
 
   .liss {
     display: flex;
-    justify-content: center;
-    align-items: center;
     list-style: none;
     text-decoration: none;
   }

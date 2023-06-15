@@ -583,8 +583,7 @@ nav {
   }
 
   .flex {
-    margin: 0;
-    padding: 0;
+    display: flex;
   }
 
   .btn-like {
@@ -821,4 +820,8 @@ img {
   .cart_product_price {
     font-size: 13px;
   }
+}
+
+.flexo {
+  display: flex;
 }

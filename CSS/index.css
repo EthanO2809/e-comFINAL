@@ -273,6 +273,12 @@ a {
     color: #ff0000;
     cursor: pointer;
   }
+
+
+
+  .ra:hover {
+    transform: scale(1.4);
+  }
   
   .bxs-trash-alt:hover {
     color: #c40909;

@@ -171,11 +171,13 @@ function renderProducts() {
 }
 renderProducts();
 
-// get items from localStorage
+// get/set items from localStorage
 let cart = localStorage.getItem("cartItems")
   ? JSON.parse(localStorage.getItem("cartItems"))
   : [];
-updateCart();
+  localStorage.setItem("cartItems", JSON.stringify(products));
+  updateCart();
+
 function renderCartProducts() {
   cartProductEl.innerHTML = "";
   cart.forEach((product) => {
@@ -294,3 +296,5 @@ function clearCart() {
     }
   }
 }
+
+localStorage.setItem('products',JSON.stringify(products))
